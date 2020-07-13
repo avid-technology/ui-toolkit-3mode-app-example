@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "appName": "example-user-app-config-settings",
+    "configName": "config_test"
+  },
+  "main": "index.js",
+  "avid": {
+    "format": "amd",
+    "alias": "your-avid-app-id",
+    "secret": "your-app-secret-from-myavid-com",
+    "mode": ["admin", "main"],
+    "autoload": false,
+    "features": {
+      "provides": {
+        "apps": [
+          {
+            "name": "example-user-app-config-settings",
+            "config": {
+              "id": "example-user-app-config-settings",
+              "title": {
+                "en": "example-user-app-config-settings"
+              },
+              "dockable": false,
+              "inspector": false
+            },
+            "menuIcon": {
+              "group": 200,
+              "orderInGroup": 200,
+              "gradient": [
+                "#35C8CB", 
+                "#7B2DD6"
+              ],
+              "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iNDcxLjYxMnB4IiBoZWlnaHQ9IjQ3MS42MTJweCIgdmlld0JveD0iMCAwIDQ3MS42MTIgNDcxLjYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDcxLjYxMiA0NzEuNjEyOyIKCSB4bWw6c3BhY2U9InByZXNlcnZlIj4KCTxwYXRoIGQ9Ik02OC45ODcsNDAyLjYyNGM5MS45OCw5MS45ODMsMjQxLjY1Miw5MS45ODMsMzMzLjYzNiwwYzkxLjk4My05MS45NzcsOTEuOTgzLTI0MS42NTgsMC0zMzMuNjM5cy0yNDEuNjU1LTkxLjk4LTMzMy42MzYsMAoJCVMtMjIuOTkzLDMxMC42NDIsNjguOTg3LDQwMi42MjR6IE04Ny4yOSw4Ny4yNzZjODEuODk5LTgxLjg5NiwyMTUuMTUyLTgxLjg5NiwyOTcuMDUyLDBjODEuODgyLDgxLjg5NCw4MS44ODIsMjE1LjE1NCwwLDI5Ny4wNTUKCQljLTgxLjg5OSw4MS44ODctMjE1LjE2NCw4MS44ODctMjk3LjA1MiwwQzUuMzk0LDMwMi40MzEsNS4zOTQsMTY5LjE3LDg3LjI5LDg3LjI3NnoiLz4KPC9zdmc+"
+            }
+          }
+        ],
+        "configuration-settings": [
+          {
+            "name": "config_test",
+            "config": {
+              "id": "config_test",
+              "title": {
+                "en": "config_test"
+              },
+              "dockable": false,
+              "inspector": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

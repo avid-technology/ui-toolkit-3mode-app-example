@@ -1,0 +1,60 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.button_dark {
+    background-color: #1b1b1a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 20%;
+    cursor: pointer;
+}
+.button_light {
+    background-color: #88a2b7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button_dark:hover {
+    background-color: #31312f;
+    color: white;
+}
+.button_light:hover {
+    background-color: #a2b3c1;
+    color: white;
+}
+
+.button:hover {
+    background-color: #afcabc;
+    color: white;
+}
+.input_name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

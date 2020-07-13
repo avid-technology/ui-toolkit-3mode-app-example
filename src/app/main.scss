@@ -1,0 +1,64 @@
+.triangle_up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #E100FF;
+	margin-left: 2%;
+}
+.triangle_down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #c512ff;
+}
+.square {
+	height: 100px;
+	width: 50px;
+	background-color: #a800ff;
+	margin-left: 2%;
+}
+.triangle_right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #7F00FF;
+	border-bottom: 50px solid transparent;
+	margin-left: 3%;
+}
+.disp div {
+	margin-top: 3%;
+	display: inline-block;
+}
+.disp {
+	margin-left: 35%;
+}
+.svg_disp {
+	margin-left: 27%;
+}
+.button {
+    background-color: #ff00a5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #d0419d;
+    color: white;
+}
+svg {
+	height: 500px;
+    width: 800px;
+    display: block;
+}
+text {
+	font-size: 35px;
+    fill: #545763cc;
+}

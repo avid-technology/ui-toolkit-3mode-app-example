@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "description": "test",
+    "build": "1",
+    "version": "0.0.1"
+  },
+  "signing": {
+    "login": "",
+    "developerID": "1",
+    "organization": "avid",
+    "privateKeyPath": ""
+  },
+  "connection": {
+    "hostIp": "your-mediacentral-cloudux-machine-address",
+    "hostPort": "",
+    "proxyPort": "8080"
+  }
+}
