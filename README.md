@@ -40,7 +40,9 @@ This example shows how you can implement 1 CloudUX plugin with single user app f
 
 View for config settings tab describes in ./avid_api/config/ViewConfig and imports into index.js.
 Making user app and config settings tab visible at the same time:
+	
 	./src/index.js:
+	
 	{
         name: appConfig.identity.appName,
         provides: [providing],
@@ -53,6 +55,7 @@ Making user app and config settings tab visible at the same time:
     }
 	
 	./src/package.json:
+	
 	"provides": {
         "apps": [
           {
@@ -82,21 +85,29 @@ Making user app and config settings tab visible at the same time:
         ]
       }
 	  
-User app function describes in ./src/app/main.js. Container for settings tab describes in ./containers/MainPaneContainer and imports into ./src/app/index.jsx.
+User app function describes in ./src/app/main.js. Container for config settings tab describes in ./containers/MainPaneContainer and imports into ./src/app/index.jsx.
 
 
 ### User App
 When you open MediaCentral | Cloud UX in Main-View you will see simple user application.
-![UserApp](/uploads/ed71e7d9484bd85edccaf081a5ac6411/UserApp.PNG)
 
-
-### Configuration Settings
-When you open MediaCentral | Cloud UX in Admin-View click on the wrench icon to see configuration settings. You should be able to see "Generate your image":
-![config_settings](/uploads/c0dac0ab771ae719d3070a2985c82e55/config_settings.PNG)
-
+![image](https://user-images.githubusercontent.com/50831927/87282650-2a14d600-c4fd-11ea-80d9-03030cbd0bc6.png)
 After clicking you will see random generated image:
-![after_clicking](/uploads/4effd63a7a3dafe608ccc35083f66f42/after_clicking.PNG)
+
+![image](https://user-images.githubusercontent.com/50831927/87282684-3305a780-c4fd-11ea-9fb2-d0c20a908e71.png)
 
 Press "Print this page" button to print current page:
-![print_page](/uploads/250840c5a14ae22673c1caae20a4bf7f/print_page.PNG)
 
+![image](https://user-images.githubusercontent.com/50831927/87282727-3ac54c00-c4fd-11ea-9cb4-feb0e9721368.png)
+
+### Configuration Settings
+When you open MediaCentral | Cloud UX in Admin-View click on the wrench icon to see configuration settings. You should be able to see "Simple config settings":
+
+![image](https://user-images.githubusercontent.com/50831927/87282762-4284f080-c4fd-11ea-88e2-195d5748727b.png)
+You can change theme of the window to light and revert to dark: 
+
+![image](https://user-images.githubusercontent.com/50831927/87282783-49abfe80-c4fd-11ea-81ac-e716e2b4a59c.png)
+
+You can enter your name into input field and after pressing "Confirm" button you will get it back:
+
+![image](https://user-images.githubusercontent.com/50831927/87282815-516ba300-c4fd-11ea-8b6c-530047c4fc8b.png)
