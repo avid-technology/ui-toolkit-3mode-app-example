@@ -1,5 +1,5 @@
 /**
- * Copyright 2019 by Avid Technology, Inc.
+ * Copyright 2022 by Avid Technology, Inc.
  */
 /* eslint-disable */
 

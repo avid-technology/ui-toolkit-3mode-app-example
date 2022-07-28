@@ -8,7 +8,15 @@
     "format": "amd",
     "alias": "your-avid-app-id",
     "secret": "your-app-secret-from-myavid-com",
-    "mode": ["admin", "main"],
+    "mode":[
+      "embedded",
+      "admin",
+      "main"
+   ],
+   "embeddedIn":[
+      "adobepremiere",
+      "composer"
+   ],
     "autoload": false,
     "features": {
       "provides": {
