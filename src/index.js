@@ -1,5 +1,5 @@
 /**
- * Copyright 2017 by Avid Technology, Inc.
+ * Copyright 2022 by Avid Technology, Inc.
  */
 import appConfig from './package.json';
 
@@ -7,13 +7,6 @@ import ViewConfig from './avid_api/view/ViewConfig';
 import AppEntry from './avid_api/entry/EntryConfig';
 import ViewConfig_settings from './avid_api/config/ViewConfig';
 
-let providing = [];
-
-const is2mode = appConfig.avid.mode.length === 2;
-
-if(is2mode) {
-    providing = ['adminApps', 'apps'];
-}
 export const avid = [
     {
         name: `${appConfig.identity.appName}-view`,
@@ -30,7 +23,7 @@ export const avid = [
     },
     {
         name: appConfig.identity.appName,
-        provides: [providing[1]],
+        provides: ['apps'],
         create: () => AppEntry,
     },
     {
