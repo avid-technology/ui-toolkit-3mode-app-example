@@ -115,7 +115,7 @@ You can enter your name into input field and after pressing "Confirm" button you
 ### Embedded App
 
 To display the Embedded app in the Media Composer® you need to open it, go to 'Tools' -> 'MediaCentral | Cloud UX':
-![image](img/1659356091975.png)
+![image](.\img\1659356091975.png)
 
 After MediaCentral | Cloud UX will dislay you should see your Embedded app like this:
-![image](img/1659356185467.png)
+![image](.img\1659356185467.png)
