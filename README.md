@@ -21,7 +21,7 @@ This example shows how you can implement 1 CloudUX plugin with single user app f
 	"connection": {
 	    "hostIp": "your-mediacentral-cloudux-machine-address",
 		"hostPort": "",
-		"proxyPort": "443"
+		"proxyPort": "8080"
 	}
 	```
 	  
@@ -31,9 +31,9 @@ This example shows how you can implement 1 CloudUX plugin with single user app f
 	npm install
 	npm start
 	```
-	Go to https://localhost:443/ in browser to see main app.
+	Go to https://localhost:8080/ in browser to see main app.
 	
-	Go to https://localhost:443/admin to see config settings in admin panel.
+	Go to https://localhost:8080/admin to see config settings in admin panel.
 	
 
 ### Structure of the plugin
@@ -43,13 +43,13 @@ Making user app and config settings tab visible at the same time:
 	
 	./src/index.js:
 	
-	  {
+	{
         name: appConfig.identity.appName,
-        provides: ['apps'],
+        provides: [providing],
         create: () => AppEntry,
     },
     {
-        name: `${appConfig.identity.configName}`,
+        name: `${appConfig.identity.appName}`,
         provides: ['configuration-settings'],
         create: () => ViewConfig_settings,
     }
@@ -111,11 +111,3 @@ You can change theme of the window to light and revert to dark:
 You can enter your name into input field and after pressing "Confirm" button you will get it back:
 
 ![image](https://user-images.githubusercontent.com/50831927/87282815-516ba300-c4fd-11ea-8b6c-530047c4fc8b.png)
-
-### Embedded App
-
-To display the Embedded app in the Media Composer® you need to open it, go to 'Tools' -> 'MediaCentral | Cloud UX':
-![image](.\img\1659356091975.png)
-
-After MediaCentral | Cloud UX will dislay you should see your Embedded app like this:
-![image](.img\1659356185467.png)
